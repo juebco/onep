@@ -1,0 +1,34 @@
+:root {
+    --dark: #8AD4FC;
+    --dark-x: #9AE6FC;
+    --light: #ffffff;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 300;
+    color: var(--light);
+}
+
+.bg-dark { background-color: var(--dark) !important;
+}
+.bg-dark-x { background-color: var(--dark-x);
+}
+
+.form-control, .btn {
+    min-height: 3.125rem;
+    line-height: initial;
+}
+
+.img-log1 {
+    background-image: url(../img/car1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img-log2 {
+    background-image: url(../img/car2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
